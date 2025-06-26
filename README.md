@@ -1,6 +1,6 @@
 # **Cantilever Retaining Wall Analysis**
 
-This project demonstrates the structural analysis of a **Cantilever Retaining Wall** using the **OpenSeesPy** library. The script defines a 2D plane strain model with triangular elements, simulates static loads, and outputs the displacements for the nodes.
+This project demonstrates the structural analysis of a **Cantilever Retaining Wall** using the **xara** library. The script defines a 2D plane strain model with triangular elements, simulates static loads, and outputs the displacements for the nodes.
 
 ## **Project Overview**
 
@@ -12,7 +12,7 @@ This script models and analyzes a cantilever retaining wall under specific load 
 
 2. **Node and Element Definitions**:
 
-   - Nodes and triangular elements (`Tri31`) are defined for the plane strain model.
+   - Nodes and triangular elements ([`Tri31`](https://xara.so/user/manual/model/elements/plane/Tri31.html)) are defined for the plane strain model.
 
 3. **Boundary Conditions**:
 
@@ -42,7 +42,7 @@ This script models and analyzes a cantilever retaining wall under specific load 
 Ensure you have Python installed and the necessary libraries
 
 ```bash
-pip install openseespy openseespy.postprocessing
+pip install xara veux
 ```
 
 ### **Step 2: Execute the Script**
